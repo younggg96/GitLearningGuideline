@@ -12,19 +12,22 @@ git init
 ls -ah // show .git file
 ```
 
+```
+git status
+git add XXX
+git add .
+git commit -m "git learning"
 
-
-
+=>
+ [master (root-commit) 6c8e636] git learning
+ 2 files changed, 224 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 GitHubLearning.md
+```
 
 git init
 
-git status
 
-git add FriendlyEats/
-
-git add .
-
-git commit -m "FriendlyEats Assignment"
 
 git log 查看历史记录
 
@@ -37,8 +40,8 @@ yangguaengdeMBP:CS6392019 younggg$ git branch -a
 ​       master
 
 * origin/master
-  remotes/origin/master
-  remotes/upstream/master
+	remotes/origin/master
+	remotes/upstream/master
 
 git checkout -b origin/master
 
