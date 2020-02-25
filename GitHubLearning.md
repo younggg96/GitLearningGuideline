@@ -27,7 +27,7 @@ git commit -m "git learning"
 
 
 
-git log 查看历史记录
+git log 
 
 git remote add origin git@github.com:younggg96/CS6392019.git
 
@@ -44,6 +44,10 @@ yangguaengdeMBP:CS6392019 younggg$ git branch -a
 git checkout -b origin/master
 
 git push origin origin/master
+
+
+
+**Add a new branch!**
 
 
 
