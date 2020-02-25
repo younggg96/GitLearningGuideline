@@ -25,8 +25,6 @@ git commit -m "git learning"
  create mode 100644 GitHubLearning.md
 ```
 
-git init
-
 
 
 git log 查看历史记录
