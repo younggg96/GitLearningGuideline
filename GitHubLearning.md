@@ -46,34 +46,36 @@ index b69629e..d4338bc 100644
 +++ b/GitHubLearning.md
 @@ -12,19 +12,22 @@ git init
  ls -ah // show .git file
- ```
+```
 
-+```
+
+
+
+```
 +git status
 +git add XXX
 +git add .
 +git commit -m "git learning"
 
--
--
+
 +=>
-+ [master (root-commit) 6c8e636] git learning
-+ 2 files changed, 224 insertions(+)
-+ create mode 100644 .DS_Store
-+ create mode 100644 GitHubLearning.md
-+```
-```
+
+[master (root-commit) 6c8e636] git learning
+2 files changed, 224 insertions(+)
+create mode 100644 .DS_Store
+create mode 100644 GitHubLearning.md
 
 ```
-younggg@yangguanggengdeMacBook-Pro GithubTest % git status
-
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
+	younggg@yangguanggengdeMacBook-Pro GithubTest % git status
+	
+	On branch master
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git checkout -- <file>..." to discard changes in working directory)
+	
 	modified:   GitHubLearning.md
 
+```
 no changes added to commit (use "git add" and/or "git commit -a")
 
 younggg@yangguanggengdeMacBook-Pro GithubTest % git add .
@@ -83,7 +85,6 @@ younggg@yangguanggengdeMacBook-Pro GithubTest % git commit -m "new update"
 [master d9a88c3] new update
  1 file changed, 13 insertions(+), 10 deletions(-)
 younggg@yangguanggengdeMacBook-Pro GithubTest %
-```
 
 ```
 git log 查看历史记录
@@ -100,7 +101,7 @@ Author: younggg96 <yangguannggeng960123@gmail.com>
 Date:   Tue Feb 25 16:14:00 2020 -0500
 
     git learning
-    
+
 或者 git log --pretty=oneline
 
 younggg@yangguanggengdeMacBook-Pro GithubTest % git log --pretty=oneline
@@ -121,7 +122,7 @@ Author: younggg96 <yangguannggeng960123@gmail.com>
 Date:   Tue Feb 25 16:14:00 2020 -0500
 
     git learning
-    
+
 git reset --hard d9a88c3 版本号
 
 git reflog 记录每一次命令
@@ -1172,7 +1173,7 @@ $ git commit -m '删除了target'        # 提交,添加操作说明
 
 git push -u origin master
 
-```text
+​```text
 git rm -r --cached .idea  #--cached不会把本地的.idea删除
 git commit -m 'delete .idea dir'
 git push -u origin master
